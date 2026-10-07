@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Jo-Hao Huang (Andrew) | Computer Vision & Robotics</title>
+  <meta name="description" content="Jo-Hao Huang (Andrew), a new graduate in Computer Science from NC State. Research and engineering in computer vision, 3D reconstruction, and robotics.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="nav-wrap"><a class="brand" href="./" aria-label="Andrew Huang home">AH<span>Andrew Huang</span></a><nav aria-label="Main navigation"><a href="#research">Research</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#activities">Activities</a><a href="#contact">Contact</a></nav></div></header>
+<main id="main">
+<section class="hero container">
+  <div class="hero-copy"><p class="eyebrow">NEW GRADUATE · COMPUTER SCIENCE</p><h1>Jo-Hao Huang<span class="name-secondary">Andrew</span></h1><p class="hero-description">I'm a new graduate with a Master of Computer Science from NC State University. My experience includes computer vision, 3D reconstruction, multi-robot localization, and autonomous driving.</p><div class="actions"><a class="button primary" href="#research">Explore my work</a><a class="button" href="assets/docs/Jo-Hao-Huang-CV.pdf" target="_blank" rel="noopener">View CV</a></div><div class="hero-links"><a href="https://github.com/andrew403">GitHub</a><a href="https://www.linkedin.com/in/andrew-huang-322b97244/">LinkedIn</a><a href="mailto:jhandrewhuang@gmail.com">Email</a></div></div>
+  <div class="hero-research"><div class="figure-label"><span>RESEARCH IN FOCUS</span><span>IROS 2026</span></div><a href="research/cerpe/" class="hero-image-link"><img src="assets/cerpe/physical_robot_team.jpg" width="2874" height="2436" alt="CERPE robot-team experiment showing camera views and relative trajectories"></a><div class="hero-caption"><span class="index-label">01 / CERPE</span><h2>Multi-robot relative pose estimation</h2><a class="text-link" href="research/cerpe/">Explore the research</a></div></div>
+</section>
+<div class="focus-band"><div class="container focus-grid"><span>Computer Vision</span><span>3D Reconstruction</span><span>Robotics & Perception</span></div></div>
+<section class="section container" id="research"><div class="section-heading"><div><h2>Research</h2></div><p>Collaborative perception for robots with limited communication and intermittent shared views.</p></div><article class="research-feature"><div class="feature-copy"><div class="tags"><span>IROS 2026</span><span>Second author</span></div><h3>CERPE</h3><p class="feature-title">Communication-Efficient Relative Pose Estimation with Vision Foundation Models for Ephemeral Collaborative Perception</p><p>Screen visual overlap with compact descriptors, request images selectively, and maintain relative pose through periods without a shared view.</p><a class="button primary" href="research/cerpe/">Read the full research</a><a class="inline-link" href="https://arxiv.org/abs/2607.14539">Read the paper</a></div><a class="feature-figure" href="research/cerpe/#approach"><img src="assets/cerpe/cerpe_method.jpeg" width="4932" height="1751" loading="lazy" alt="CERPE method: descriptor screening, pose anchoring, and ego-motion propagation"><span>System overview · Screen / Anchor / Propagate</span></a></article></section>
+<section class="section experience-section" id="experience"><div class="container"><div class="section-heading"><div><h2>Work Experience</h2></div></div>
+<article class="experience" id="forreal"><div class="experience-meta"><span>APR — JUL 2026</span><p>Danvers, Massachusetts</p></div><div class="experience-body"><p class="organization">forREAL Inc.</p><h3>Computer Vision R&D Engineer</h3><p>Developed tools for automated 3D reconstruction evaluation, scene understanding, and metric reconstruction.</p><ul><li>Applied and deployed Qwen vision-language models (VLMs). Built VLM-based quality scoring for COLMAP poses and 3D Gaussian Splatting outputs, using model-based reprocessing triggers to replace manual review.</li><li>Combined segmentation masks with COLMAP and 3DGS reprojection for prompt-driven object counting in 3D scenes.</li><li>Integrated Lichtfeld Studio through FastAPI and RANSAC-based ground alignment to improve reconstruction quality.</li><li>Recovered metric scale from ARKit depth and developed dual-exposure, SAM-based fusion for window scenes.</li></ul><div class="tags"><span>Qwen</span><span>VLM Deployment</span><span>3D Gaussian Splatting</span><span>COLMAP</span><span>FastAPI</span><span>SAM</span><span>ARKit</span></div><div class="experience-gallery" aria-labelledby="forreal-visuals-title">
+  <div class="gallery-heading"><h4 id="forreal-visuals-title">Visual context</h4><span>WEB-SOURCED REFERENCES</span></div>
+  <div class="reference-grid">
+    <figure class="reference-figure reference-scene">
+      <button class="reference-image" type="button" data-enlarge aria-label="Enlarge Gaussian Splatting reference image"><img src="assets/forreal/gaussian-splatting-example.webp" width="960" height="960" loading="lazy" alt="Web-sourced Gaussian Splatting example showing a furnished living room"></button>
+      <figcaption><span class="reference-kind">3D SCENE REPRESENTATION</span><strong>Gaussian Splatting</strong><p>An illustrative interior scene.</p></figcaption>
+    </figure>
+    <div class="reference-tools">
+      <figure class="reference-figure">
+        <button class="reference-image reference-logo" type="button" data-enlarge aria-label="Enlarge LichtFeld Studio reference image"><img src="assets/forreal/lichtfeld-studio.webp" width="1400" height="800" loading="lazy" alt="LichtFeld Studio logo from a web-sourced reference image"></button>
+        <figcaption><span class="reference-kind">RECONSTRUCTION TOOLING</span><strong>LichtFeld Studio</strong></figcaption>
+      </figure>
+      <figure class="reference-figure">
+        <button class="reference-image reference-logo" type="button" data-enlarge aria-label="Enlarge Qwen reference image"><img src="assets/forreal/qwen.png" width="712" height="280" loading="lazy" alt="Web-sourced Qwen3 logo representing Qwen VLM experience"></button>
+        <figcaption><span class="reference-kind">VLM APPLICATION &amp; DEPLOYMENT</span><strong>Qwen</strong><p>Applied and deployed Qwen vision-language models (VLMs).</p></figcaption>
+      </figure>
+    </div>
+  </div>
+  <p class="image-credit"><strong>Image credits.</strong> All images in this forREAL experience section are sourced from the web and shown as technical references, not as original forREAL project results. Images and logos belong to their respective owners.</p>
+</div>
+</div></article>
+<article class="experience"><div class="experience-meta"><span>APR 2025 — MAR 2026</span><p>Raleigh, North Carolina</p></div><div class="experience-body"><p class="organization">North Carolina State University</p><h3>Research Assistant</h3><p>Researched perception models for multi-robot scenarios in Dr. Peng Gao's lab.</p><a class="text-link" href="research/cerpe/">Explore CERPE</a></div></article>
+<article class="experience" id="itri"><div class="experience-meta"><span>APR — NOV 2024</span><p>Hsinchu, Taiwan</p></div><div class="experience-body"><p class="organization">Industrial Technology Research Institute</p><h3>Autonomous Driving Development Intern</h3><p>Adapted and deployed vision models for a Level 2 autonomous bus, connecting perception with simulation and robotic systems.</p><ul><li>Reviewed computer vision research and deployed open-source models for initial testing on NVIDIA Orin.</li><li>Implemented and fine-tuned monocular object detection, depth estimation, and bird's-eye-view generation within ROS2.</li><li>Modeled autonomous-driving scenarios in Isaac Sim and integrated ROS for hardware-in-the-loop simulation.</li><li>Integrated multiple open-source vision models in a sensor-fusion workflow and contributed to a team experiment exploring person-following for a medical robot.</li><li>Demonstrated solid-state LiDAR technology to visitors at the Taiwan Innotech Expo (TIE).</li></ul><div class="tags"><span>ROS2</span><span>NVIDIA Orin</span><span>Isaac Sim</span><span>Depth Estimation</span><span>Sensor Fusion</span></div><div class="itri-media" aria-label="ITRI project photos and demonstration">
+  <div class="itri-photo-grid">
+    <figure class="itri-figure">
+      <button type="button" class="itri-image" data-enlarge data-lightbox-label="ITRI · Autonomous bus platform" aria-label="Enlarge ITRI autonomous bus photo"><img src="assets/itri/autonomous-bus.webp" width="810" height="1080" loading="lazy" alt="Front view of the autonomous bus platform used during my internship at ITRI"></button>
+      <figcaption><span class="reference-kind">VEHICLE PLATFORM</span><h4>Autonomous bus</h4><p>The autonomous bus platform I worked with during my ITRI internship.</p></figcaption>
+    </figure>
+    <figure class="itri-figure">
+      <button type="button" class="itri-image" data-enlarge data-lightbox-label="ITRI · Vision models and sensor fusion" aria-label="Enlarge ITRI sensor fusion development photo"><img src="assets/itri/vision-sensor-fusion.webp" width="1440" height="1080" loading="lazy" alt="Development screen showing object detection, a camera view, and a depth map during vision-model and sensor-fusion integration"></button>
+      <figcaption><span class="reference-kind">PERCEPTION DEVELOPMENT</span><h4>Vision models & sensor fusion</h4><p>My development process for integrating multiple open-source vision models into a sensor-fusion workflow, with object detection, camera imagery, and depth estimation shown together.</p></figcaption>
+    </figure>
+<figure class="itri-figure itri-expo" id="itri-tie">
+<button type="button" class="itri-image" data-enlarge data-lightbox-label="ITRI · Solid-state LiDAR demonstration at TIE" aria-label="Enlarge TIE solid-state LiDAR demonstration photo"><img src="assets/itri/tie-lidar-demonstration.webp" width="1440" height="1080" loading="lazy" alt="On-site demonstration of ITRI solid-state LiDAR technology to visitors at the TIE exhibition"></button>
+<figcaption><span class="reference-kind">LIVE TECHNOLOGY DEMONSTRATION</span><h4>Solid-state LiDAR at TIE</h4><p>Demonstrating ITRI's solid-state LiDAR technology to visitors at the Taiwan Innotech Expo (TIE).</p></figcaption>
+</figure>
+  </div>
+  <div class="itri-demo">
+    <div class="itri-demo-heading"><span class="reference-kind">ROBOTICS EXPERIMENT</span><h4>Person-following for a medical robot</h4><p>Worked with the team to explore a person-following capability for a medical robot. This video documents a prototype experiment.</p></div>
+    <div class="panel itri-video-panel"><div class="video-frame"><iframe id="itri-follow-video" src="https://drive.google.com/file/d/1xd4JTBlfvtl4iHhXxs7xCdKW_OxDi1A_/preview" title="ITRI medical robot person-following prototype experiment" loading="lazy" allow="autoplay; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div class="video-caption"><p>Team experiment · Person-following prototype</p></div></div>
+  </div>
+</div>
+</div></article>
+<article class="experience"><div class="experience-meta"><span>FEB 2021 — APR 2022</span><p>Taoyuan, Taiwan</p></div><div class="experience-body"><p class="organization">Advanced Semiconductor Engineering Inc.</p><h3>IT Infrastructure Intern</h3><p>Maintained enterprise IT infrastructure and automated software installation and update workflows for production-line and office systems.</p></div></article>
+</div></section>
+<section class="section container" id="projects"><div class="section-heading"><div><h2>Projects</h2></div></div><div class="project-grid">
+<article class="project maze-project" id="maze-robot">
+  <div class="maze-layout">
+    <div class="maze-copy">
+      <p class="project-number">01</p><p class="small-label">JAN — MAY 2025</p>
+      <h3>Maze Solving Robot</h3>
+      <p class="maze-intro">From Q-learning in simulation to navigation on a physical Triton robot.</p>
+      <p>Trained a maze-navigation policy with Q-learning and a wall-following strategy in Gazebo, then deployed the learned policy on the Triton robot platform using LiDAR for real-time obstacle avoidance.</p>
+      <ol class="maze-stages"><li><strong>Train in Gazebo</strong><span>Learn a maze-navigation policy through Q-learning in a simulated environment.</span></li><li><strong>Deploy on Triton</strong><span>Run the learned policy on a physical robot and demonstrate navigation in an indoor environment.</span></li></ol>
+      <div class="tags"><span>Q-learning</span><span>Gazebo</span><span>Triton</span><span>LiDAR</span></div>
+    </div>
+    <div class="maze-media">
+      <div class="panel maze-video-panel">
+        <div class="tabs" role="tablist" aria-label="Maze Solving Robot demonstrations" data-tabs="maze">
+          <button id="maze-training-tab" type="button" role="tab" aria-selected="true" aria-controls="maze-video-panel" data-file-id="1niV-kDqABHNdk42MTB-hH8YNf7RzOysz" data-title="Q-learning training in Gazebo" data-caption="Simulation training: Q-learning for maze navigation in Gazebo.">Simulation training</button>
+          <button id="maze-triton1-tab" type="button" role="tab" aria-selected="false" aria-controls="maze-video-panel" data-file-id="1mBVZCMes7EbxqBhvHoafB6YS-JoSQJvE" data-title="Triton robot physical demonstration 01" data-caption="Physical deployment: maze-navigation policy running on the Triton robot platform — demonstration 01.">Triton demo 01</button>
+          <button id="maze-triton2-tab" type="button" role="tab" aria-selected="false" aria-controls="maze-video-panel" data-file-id="1pEegpsd8krnhSplnTXtfnu9TweV2GPpQ" data-title="Triton robot physical demonstration 02" data-caption="Physical deployment: maze-navigation policy running on the Triton robot platform — demonstration 02.">Triton demo 02</button>
+        </div>
+        <div id="maze-video-panel" role="tabpanel" aria-labelledby="maze-training-tab">
+          <div class="video-frame maze-video-frame"><iframe id="maze-video" src="https://drive.google.com/file/d/1niV-kDqABHNdk42MTB-hH8YNf7RzOysz/preview" title="Q-learning training in Gazebo" loading="lazy" allow="autoplay; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+          <div class="video-caption"><p id="maze-caption" aria-live="polite">Simulation training: Q-learning for maze navigation in Gazebo.</p></div>
+        </div>
+      </div>
+      <p class="maze-media-note">Three demonstrations: one simulation training video and two physical robot demos.</p>
+      <noscript><p><a href="https://drive.google.com/file/d/1mBVZCMes7EbxqBhvHoafB6YS-JoSQJvE/view">Watch Triton demo 01</a> · <a href="https://drive.google.com/file/d/1pEegpsd8krnhSplnTXtfnu9TweV2GPpQ/view">Watch Triton demo 02</a></p></noscript>
+    </div>
+  </div>
+</article>
+<article class="project"><p class="project-number">02</p><p class="small-label">SEP — DEC 2023</p><h3>SFML Multiplayer Platform Game</h3><p>Created a 2D platform game in C++ and SFML with multithreading, pause and resume functionality, and ZeroMQ networking for multiplayer gameplay.</p><div class="tags"><span>C++</span><span>SFML</span><span>ZeroMQ</span></div></article>
+<article class="project"><p class="project-number">03</p><p class="small-label">SEP 2021 — JUL 2023</p><h3>Human-Aware Promotional Robot</h3><p>Combined OpenPose camera observations with smart-insole pressure data for human target recognition and robot interaction. Synchronized sensor timelines, organized datasets, and tested the NVIDIA TX2 software environment.</p><div class="tags"><span>OpenPose</span><span>Sensor Fusion</span><span>NVIDIA TX2</span></div></article>
+</div></section>
+<section class="section container activities" id="activities"><div><p class="eyebrow">04 / ACTIVITIES</p><h2>AquaPack</h2><p>I contributed to the development of a visual recognition system that selects target objects through an RGB camera, extracts features to establish spatial anchors, and uses RTAB-Map for SLAM mapping and tracking.</p><div class="tags"><span>RGB Vision</span><span>Feature Extraction</span><span>Spatial Anchors</span><span>RTAB-Map</span><span>SLAM</span></div></div><div class="education"><p class="eyebrow">EDUCATION</p><h3>Master of Computer Science</h3><p>North Carolina State University · December 2025</p><h3>B.S. in Computer Science and Engineering</h3><p>Yuan Ze University · June 2022</p></div></section>
+<section class="contact-section" id="contact"><div class="container contact-inner"><div><h2>Contact</h2></div><div><a class="contact-email" href="mailto:jhandrewhuang@gmail.com">jhandrewhuang@gmail.com</a><div class="hero-links"><a href="https://github.com/andrew403">GitHub</a><a href="https://www.linkedin.com/in/andrew-huang-322b97244/">LinkedIn</a><a href="assets/docs/Jo-Hao-Huang-CV.pdf">CV</a></div></div></div></section>
+</main><footer class="site-footer container"><span>© 2026 Jo-Hao Huang</span><span>Computer Vision · 3D Reconstruction · Robotics</span></footer>
+<dialog class="lightbox" id="lightbox" aria-label="Enlarged reference image"><span class="lightbox-label">Web-sourced reference image</span><button type="button" class="lightbox-close">Close</button><img src="assets/forreal/gaussian-splatting-example.webp" alt="Enlarged reference image"></dialog>
+</body></html>
